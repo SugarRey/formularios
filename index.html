@@ -8,5 +8,105 @@
 </head>
 <body>
     
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <!-- Grupo usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario__label">Usuario</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="usuario" id="usuario" placeholde="Sugar123">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    El usuario tiene que ser 4 a 16 digitos
+                </p>
+            </div>
+
+            <!-- Grupo  nombre-->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholde="Sugar123">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    El nombre tiene que ser 4 a 16 digitos
+                </p>
+            </div>
+
+            <!-- Grupo  Contraseña-->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password" id="password" placeholde="">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    El contraseña tiene que ser 4 a 16 digitos
+                </p>
+            </div>
+            <!-- Grupo  Contraseña-->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">RepetirvContraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password2" id="password2" placeholde="">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    Ambas contraseñas deven ser iguales
+                </p>
+            </div>
+
+            <!-- Grupo correo electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">correo</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="correo" placeholde="correo@correo.com">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    El correo solo puede contener letras, numeros, putos
+                </p>
+            </div>
+
+            <!-- Grupo telefono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">telefono</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="telefono" id="telefono" placeholde="telefono@telefono.com">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">
+                    El telefono solo puede contener numeros y el maximo es 12
+                </p>
+            </div>
+
+            <!-- Grupo: terminos y condiciones  -->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label  class="formulario__label">
+                    <input type="text" class="formulario__checkbox" name="terminos" id="terminos">
+                    Acepto los terminos
+                </label>
+            </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p>
+                    <i class="far fa-exclamation-triangle"></i>
+                    <b>Error: </b> pro favor rellene el formulario
+                </p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" ></button>
+            </div>
+        </form>
+
+    </main>
+
+
+
+    <script src="/js/formularios.js"></script>
+    <script src="https://kit.fontawesome.com/3a8fe39e80.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
